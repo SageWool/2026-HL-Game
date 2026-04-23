@@ -35,6 +35,9 @@ without running out of guesses.
 Good luck player 
 
     """)
+
+
+
 # checks for int more than 0 (allows <enter>)
 def int_check(question):
     while True:
@@ -66,7 +69,7 @@ mode = "regular"
 rounds_played = 0
 
 
-print("⬆️⬆️⬆️ Welcome to the Higher Lower Game ⬇️⬇️⬇️")
+print("⬆️⬆️⬆️ Welcome to the Higher Lower")
 print()
 
 want_instructions = yes_no("Do you want to see the instructions? ")
